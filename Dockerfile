@@ -8,7 +8,7 @@ RUN npm install
 
 ENV APP_ID 4c343c59-b8d5-41e9-92dc-7ff7adcda8c0
 ENV MASTER_KEY kkAo89mbHhywdjBbBB28pYbQ7CHdvZam
-ENV DATABASE_URI setMongoDBURI
+ENV DATABASE_URI mongodb://mongouser:password@127.0.0.1/sampledb
 
 # Optional (default : 'parse/cloud/main.js')
 # ENV CLOUD_CODE_MAIN cloudCodePath
